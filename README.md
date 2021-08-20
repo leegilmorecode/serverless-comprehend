@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Examples of using AWS Comprehend for sentiment analysis and PII redaction for serverless applications, based on the following [blog post](/)
+Examples of using AWS Comprehend for sentiment analysis and PII redaction for serverless applications, based on the following [blog post](https://leejamesgilmore.medium.com/are-your-serverless-customers-happy-or-sad-32f904ede5ff)
 
 ## What are we building?
 
