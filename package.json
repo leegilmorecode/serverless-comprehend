@@ -1,0 +1,44 @@
+{
+  "name": "serverless-comprehend",
+  "version": "1.0.0",
+  "description": "Examples of using AWS Comprehend for sentiment analysis and PII redaction for serverless applications",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "npx prettier --write .",
+    "build:develop": "sls package --stage=develop",
+    "deploy:develop": "sls deploy --stage=develop",
+    "remove:develop": "sls remove --stage=develop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leegilmorecode/serverless-comprehend.git"
+  },
+  "author": "Lee Gilmore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leegilmorecode/serverless-comprehend/issues"
+  },
+  "homepage": "https://github.com/leegilmorecode/serverless-comprehend#readme",
+  "dependencies": {
+    "aws-sdk": "^2.970.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.82",
+    "@types/node": "^16.6.1",
+    "@types/uuid": "^8.3.1",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "fork-ts-checker-webpack-plugin": "^6.3.2",
+    "prettier": "^2.3.2",
+    "serverless": "^2.55.0",
+    "serverless-webpack": "^5.5.1",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.3.5",
+    "webpack": "^5.50.0",
+    "webpack-node-externals": "^3.0.0"
+  }
+}

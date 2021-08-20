@@ -1,0 +1,36 @@
+{
+  "info": {
+    "_postman_id": "a5c8d611-b818-458f-939e-a13754b90dd2",
+    "name": "serverless-comprehend",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "POST /comments",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"comment\": \"Hi I am Peter and I live in Brazil, I am not happy with my service from Tom in the UK at all\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{url}}comments",
+          "host": ["{{url}}comments"]
+        }
+      },
+      "response": []
+    }
+  ],
+  "variable": [
+    {
+      "key": "url",
+      "value": "https://something.execute-api.eu-west-1.amazonaws.com/develop/"
+    }
+  ]
+}
